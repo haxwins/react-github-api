@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+.App {
+  margin: 50px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+.App #main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+.App #logo{
+  font-family: Lato;
+  font-size: 65px;
+}
+.App input{
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 20px;
+  width: 80%;
+}
+.App ul{
+  font-family: Lato;
+  font-size: 20px;
+  margin-top: 5px;
+  list-style-type: none;
+  align-self: flex-start;
+}
+.App ul img{
+  width: 20px;
+  height: 20px;
+  margin-right: 7px;
+}
+.App ul a{
+  text-decoration: none;
+  color:black;
+}
+.App ul a:visited{
+  text-decoration: none;
+  color:black;
+}
+.App ul a:hover{
+  text-decoration: none;
+  color:blue;
+}
